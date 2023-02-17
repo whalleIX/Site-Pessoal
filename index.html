@@ -14,8 +14,24 @@
             p{
                 margin-top: 200px;
                 margin-left: 50px;
-                margin-right: 1000px;
+                margin-right: 1200px;
             }
+            .flex-container {
+  display: flex;
+  flex-direction: column;
+  -ms-flex-pack: var(1200px);
+  }
+  
+  .flex-container > div {
+  background-color: rgba(12, 10, 10, 0.493);
+  margin-top: 10px;
+  margin-left: 1200px;
+  margin-right: 50px;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+  
         </style>
         
 </head>
@@ -25,12 +41,16 @@
    <center><h2>Olá, meu nome é Jhuan de Andrade Silva, ou Skale.</center>
     <p>Esse é o meu site pessoal, onde eu colocarei sobre alguns aspectos da minha vida, profissional, curricular, social e escolar. Meus sonhos e objetivos, gostos músicais, de livros, filmes, etc.
         fotos minhas e de outras informações minhas.
-    </p>
-   <ul><li><p>Músicas
-    Comida
-    livros
-    Filmes
-   </p>
-   </li></ul>
+        <div class="flex-container">
+            <div>Músicas</div>
+            <div>Comidas</div>
+            <div>Livros</div>  
+            <div>Filmes</div>
+          </div>
+        
+    
+    
+   
+   </ul>
 </body>
 </html>
