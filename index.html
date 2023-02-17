@@ -7,6 +7,33 @@
     <title>Document</title>
     <meta charset="UTF-8">
     <style>
+      .navBar {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.411);
+
+        }
+
+        .navBar>div {
+            margin: 20px;
+            background-color: rgba(0, 0, 0, 0.541);
+            padding: 20px;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .flex-container>div {
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
         body {
           background-color: rgba(12, 10, 10, 0.493);
         }
@@ -19,38 +46,67 @@
             .flex-container {
   display: flex;
   flex-direction: column;
-  -ms-flex-pack: var(1200px);
   }
-  
-  .flex-container > div {
-  background-color: rgba(12, 10, 10, 0.493);
-  margin-top: 10px;
-  margin-left: 1200px;
-  margin-right: 50px;
-  padding: 20px;
-  text-align: center;
-  font-size: 30px;
+  p{
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 1200px;
+  }
+  .navBar>div {
+            margin: 20px;
+            background-color: rgba(0, 0, 0, 0.541);
+            padding: 20px;
+        }
+  .lista> div{
+margin-top: 20px;
+margin-left: 1200px;
+margin-right: 50px;
+background-color: rgba(12, 10, 10, 0.493);
+
+  }
+  .button {
+    border: none;
+    color: rgba(12, 10, 10, 0.493);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 200px;
+    margin-left: 1200px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+}
+img{
+  margin-top: 100px;
 }
   
         </style>
         
 </head>
 <body>
-   <center><h1>Meu Site Pessoal</h1></center>
+  <div class="navBar">
+    <div><a href="url">Home</a></div>
+    <div><a href="url">link text</a></div>
+    <div><a href="url">link text</a></div>
+</div>
+   
    <center><img src="5664c1f4b3df6a7048efe876c6a0083c.jpg" alt="perfil" width="200" height="'100"> </center>
    <center><h2>Olá, meu nome é Jhuan de Andrade Silva, ou Skale.</center>
     <p>Esse é o meu site pessoal, onde eu colocarei sobre alguns aspectos da minha vida, profissional, curricular, social e escolar. Meus sonhos e objetivos, gostos músicais, de livros, filmes, etc.
-        fotos minhas e de outras informações minhas.
-        <div class="flex-container">
-            <div>Músicas</div>
-            <div>Comidas</div>
-            <div>Livros</div>  
-            <div>Filmes</div>
-          </div>
+        fotos minhas e de outras informações minhas.</p>
         
-    
+<div class="lista">
+  <div><a href="url">Músicas</a></div>
+  <div><a href="url">Comida</a></div>
+  <div><a href="url">Livro</a></div>
+</div>
     
    
-   </ul>
+   
 </body>
 </html>
